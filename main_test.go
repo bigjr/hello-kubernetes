@@ -16,7 +16,7 @@ func TestGreet(t *testing.T) {
 			want: "Hello Brian!",
 		}, {
 			arg:  "Mary",
-			want: "Hello Mary!",
+			want: "Hello John!",
 		},
 	}
 	for _, test := range tests {
